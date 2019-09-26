@@ -117,7 +117,7 @@
 <meta property="og:site_name" content="上进学长|个人博客">
 <meta property="og:description" content="前言Linux操作常用命令(个人记载-持续补充)">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-16T09:51:43.990Z">
+<meta property="og:updated_time" content="2019-01-18T13:05:26.534Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux操作常用命令(个人记载-持续补充)">
 <meta name="twitter:description" content="前言Linux操作常用命令(个人记载-持续补充)">
@@ -506,7 +506,7 @@
 <h3 id="系统管理"><a href="#系统管理" class="headerlink" title="系统管理"></a>系统管理</h3><p><code>clear</code> 清屏<br><code>ifconfig</code> 查看网络情况<br><code>ping ip</code> 测试网络连通<br><code>netstat</code> 显示网络状态信息<br><code>netstat -ntl</code> 查看端口使用情况<br><code>nohup java -jar anyanghl.jar &amp;</code> 执行程序并使其后台运行<br><code>nohup java -jar anyanghl.jar &amp; &gt; test.txt</code> 执行程序并使其后台运行输出日志到项目文件夹下的test.txt文件<br><code>tail -f test.txt</code> 查看后台执行日志</p>
 <p><code>fdisk fdisk -l</code> 查看系统分区信息<br><code>fdisk fdisk /dev/sdb</code> 为一块新的SCSI硬盘进行分区<br><code>chown chown root /home</code> 把/home的属主改成root用户<br><code>chgrp chgrp root /home</code> 把/home的属组改成root组  </p>
 <p><code>Useradd</code>创建一个新的用户<br><code>Groupadd</code> 组名 创建一个新的组<br><code>Passwd</code> 用户名 为用户创建密码<br><code>Passwd -d</code>用户名 删除用户密码也能登陆<br><code>Passwd -S</code>用户名 查询账号密码<br><code>Usermod -l</code> 新用户名 老用户名 为用户改名<br><code>Userdel–r</code> 用户名 删除用户一切  </p>
-<p><code>stat</code> 显示指定文件的详细信息，比ls更详细<br><code>who</code> 显示在线登陆用户<br><code>whoami</code> 显示当前操作用户<br><code>hostname</code>  显示主机名<br><code>uname</code> 显示系统信息  </p>
+<p><code>stat</code> 显示指定文件的详细信息，比ls更详细<br><code>who</code> 显示在线登陆用户<br><code>whoami</code> 显示当前操作用户<br><code>hostname</code>  显示主机名<br><code>uname</code> 显示系统信息<br><code>which nginx</code> 查询nginx所在目录 其他一样 </p>
 <p><code>uname -a</code> 查看内核版本<br><code>sudo fdisk -l</code> 查看磁盘信息<br><code>df -h</code> 查看硬盘剩余空间<br><code>free -m</code> 查看当前的内存使用情况<br><code>ps -ef</code> 查看当前有哪些进程<br><code>ps -ef | grep nginx</code> 显示名为Nginx的进程<br><code>kill 进程号</code> (就是ps -ef中的第一列的数字)或者 killall 进程名( 杀死一个进程)<br><code>kill -9 进程号</code> 强制杀死一个进程  </p>
 <p><code>reboot Init 6</code> 重启LINUX系统<br><code>Halt Init 0 Shutdown –h now</code> 关闭LINUX系统</p>
 <hr>
@@ -877,26 +877,12 @@ reboot              重启
 </div>
 
 
-<div class="powered-by">
-<i class="fa fa-user-md"></i>
-<span id="busuanzi_container_site_pv">
-    访问人次<span id="busuanzi_value_site_pv"></span>次
-</span>
-</div>
 
 
 
 
 
 
-
-
-
-
-<div class="theme-info">
-  <div class="powered-by"></div>
-  <span class="post-count">全站共7.7k字</span>
-</div>
 
         
 
