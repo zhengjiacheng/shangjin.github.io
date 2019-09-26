@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>上进学长|个人博客</title>
+  
+  <subtitle>不忘初心,砥砺前行。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.zjc123.cn/"/>
+  <updated>2019-01-16T05:51:44.663Z</updated>
+  <id>http://blog.zjc123.cn/</id>
+  
+  <author>
+    <name>郑上进</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>夷陵智慧园区</title>
+    <link href="http://blog.zjc123.cn/2018/11/15/%E5%A4%B7%E9%99%B5%E6%99%BA%E6%85%A7%E5%9B%AD%E5%8C%BA/"/>
+    <id>http://blog.zjc123.cn/2018/11/15/夷陵智慧园区/</id>
+    <published>2018-11-15T02:44:25.000Z</published>
+    <updated>2019-01-16T05:51:44.663Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>夷陵智慧园是为宜昌市夷陵区五商一城开发的一套智慧园区系统，为方便园区综合管理商户、线上为商户进行各类服务，整套系统由三个B/S架构的系统组成。</em></p><a id="more"></a><h3 id="模块功能"><a href="#模块功能" class="headerlink" title="模块功能"></a>模块功能</h3><p><strong>1.微信用户端（商家及个体用户）：包含（个人中心、我的费用、我的积分、我的会议室、我的报修、我的增值服务、我的投诉建议、话题圈子、首页分类新闻等模块）；</strong></p><p><strong>2.微信服务端（园区管理人员）：包含（个人中心、合同管理、会议室审批、费用查询、增值服务处理、设备巡检、物业报修、投诉建议模块）；</strong></p><p><strong>3.后台管理端（园区管理人员）：包含：（企业服务、信息发布、社交论坛、大屏看板、物业管理、广告配置、系统设置几大模块）；</strong></p><hr><h3 id="主要技术："><a href="#主要技术：" class="headerlink" title="主要技术："></a>主要技术：</h3><p><strong><em>系统使用Nginx反向代理进行前后端分离式的开发；</em></strong><br><strong>后端：</strong> 采用SpringBoot框架、MyBatis做持久层框架、使用slf4j+logback框架进行日志记录、使用Maven做项目版本控制、数据储存使用Mysql、用SVN做源代码版本控制；<br><strong>管理端：</strong> 使用Layui框架；<br><strong>微信端：</strong> 使用mui前端框架；<br><strong>开发工具：</strong> Idea、Webstrom、Nginx；</p><h3 id="责任描述"><a href="#责任描述" class="headerlink" title="责任描述"></a>责任描述</h3><p><strong><em>主要负责：</em></strong><br>1、后台管理端：商户入驻审批，会议室管理、合同管理、增值服务 <strong><em>(后端Java逻辑代码的编写，前端页面的设计，前后端数据的交互)；</em></strong></p><p><img src="http://jpg.zjc123.cn/zh-ht-1-%E5%85%A5%E9%A9%BB%E5%AE%A1%E6%A0%B8.jpg" alt="商户入驻审批" title="商户入驻审批"></p><p><img src="http://jpg.zjc123.cn/zh-ht-3-%E4%BC%9A%E8%AE%AE%E5%AE%A4%E7%AE%A1%E7%90%86.jpg" alt="会议室管理" title="会议室管理"></p><p><img src="http://jpg.zjc123.cn/zh-ht-4-%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86.jpg" alt="合同管理" title="合同管理"></p><p><img src="http://jpg.zjc123.cn/zh-ht-6-%E5%A2%9E%E5%80%BC%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86.jpg" alt="增值服务" title="增值服务"></p><p>2、微信用户端：会议室申请、增值服务申请、我的合同 <strong><em>(后端Java逻辑代码的编写，前后端数据的交互)；</em></strong></p><p><img src="http://jpg.zjc123.cn/zh-wx-3-%E4%BC%9A%E8%AE%AE%E5%AE%A4%E7%94%B3%E8%AF%B7.jpg" alt="会议室申请" title="会议室申请"></p><p><img src="http://jpg.zjc123.cn/zh-wx-4-%E4%BC%9A%E8%AE%AE%E5%AE%A4%E8%AF%A6%E6%83%85.jpg" alt="会议室详情" title="会议室申请"></p><p><img src="http://jpg.zjc123.cn/zh-wx-5-%E5%A2%9E%E5%80%BC%E6%9C%8D%E5%8A%A1%E7%94%B3%E8%AF%B7.jpg" alt="增值服务申请" title="增值服务申请"></p><p><img src="http://jpg.zjc123.cn/zh-wx-7-%E5%90%88%E5%90%8C%E6%9F%A5%E7%9C%8B.jpg" alt="我的合同" title="我的合同"></p><p>3、微信服务端：会议室审批、增值服务处理、合同查询<strong><em>(后端Java逻辑代码的编写，前后端数据的交互)；</em></strong></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;夷陵智慧园是为宜昌市夷陵区五商一城开发的一套智慧园区系统，为方便园区综合管理商户、线上为商户进行各类服务，整套系统由三个B/S架构的系统组成。&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="项目" scheme="http://blog.zjc123.cn/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+      <category term="项目经验" scheme="http://blog.zjc123.cn/tags/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS使用Docker安装Mysql5.7</title>
+    <link href="http://blog.zjc123.cn/2018/10/16/CentOS%E4%BD%BF%E7%94%A8Docker%E5%AE%89%E8%A3%85Mysql5-7/"/>
+    <id>http://blog.zjc123.cn/2018/10/16/CentOS使用Docker安装Mysql5-7/</id>
+    <published>2018-10-16T07:43:58.000Z</published>
+    <updated>2019-01-16T09:35:20.867Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>CentOS使用Docker安装Mysql5.7并挂载外部配置和数据</em> </p><hr><a id="more"></a><h3 id="普通安装"><a href="#普通安装" class="headerlink" title="普通安装:"></a>普通安装:</h3><h4 id="Docker下载MySQL镜像"><a href="#Docker下载MySQL镜像" class="headerlink" title="Docker下载MySQL镜像"></a>Docker下载MySQL镜像</h4><p><code>docker pull mysql:5.7</code>  </p><p>运行该命令后，则会显示以下日志：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost ~]# docker pull mysql:5.7</span><br><span class="line">5.7: Pulling from library/mysql</span><br><span class="line">ad74af05f5a2: Pull complete </span><br><span class="line">0639788facc8: Pull complete </span><br><span class="line">de70fa77eb2b: Pull complete </span><br><span class="line">724179e94999: Pull complete </span><br><span class="line">50c77fb16ba6: Pull complete </span><br><span class="line">d51f459239fb: Pull complete </span><br><span class="line">937bbdd4305a: Pull complete </span><br><span class="line">35369f9634e1: Pull complete </span><br><span class="line">f6016aab25f1: Pull complete </span><br><span class="line">5f1901e920da: Pull complete </span><br><span class="line">fdf808213c5b: Pull complete </span><br><span class="line">Digest: sha256:96edf37370df96d2a4ee1715cc5c7820a0ec6286551a927981ed50f0273d9b43</span><br><span class="line">Status: Downloaded newer image for mysql:5.7</span><br></pre></td></tr></table></figure></p><h4 id="查看本机镜像"><a href="#查看本机镜像" class="headerlink" title="查看本机镜像"></a>查看本机镜像</h4><p><code>docker images</code>  </p><p>运行后：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost ~]# docker images</span><br><span class="line">REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE</span><br><span class="line">mysql               5.7                 c73c7527c03a        8 days ago          412MB</span><br><span class="line">hello-world         latest              1815c82652c0        7 weeks ago         1.84kB</span><br><span class="line">java                latest              d23bdf5b1b1b        6 months ago        643MB</span><br><span class="line">learn/tutorial      latest              a7876479f1aa        4 years ago         128MB</span><br></pre></td></tr></table></figure></p><h4 id="创建并启动"><a href="#创建并启动" class="headerlink" title="创建并启动"></a>创建并启动</h4><p>参数说明：<br>-e MYSQL_USER=”shangjin”  ：添加shangjin用户</p><p>-e MYSQL_PASSWORD=”123456”：设置添加的用户密码</p><p>-e MYSQL_ROOT_PASSWORD=”123456”：设置root用户密码</p><p>–character-set-server=utf8：设置字符集为utf8</p><p>–collation-server=utf8_general_cli：设置字符比较规则为utf8_general_cli<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 3306:3306 -e MYSQL_USER=&quot;shangjin&quot; -e MYSQL_PASSWORD=&quot;123456&quot; -e MYSQL_ROOT_PASSWORD=&quot;123456&quot; --name mysqltest1 mysql:5.7 --character-set-server=utf8 --collation-server=utf8_general_ci</span><br></pre></td></tr></table></figure></p><hr><h3 id="挂载外部配置和数据安装"><a href="#挂载外部配置和数据安装" class="headerlink" title="挂载外部配置和数据安装"></a>挂载外部配置和数据安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">// 创建docker目录 </span><br><span class="line">mkdir /docker</span><br><span class="line">// 创建mysql目录</span><br><span class="line">mkdir /docker/mysql</span><br><span class="line">// 创建conf目录</span><br><span class="line">mkdir /docker/mysql/conf</span><br><span class="line">// 创建data目录</span><br><span class="line">mkdir /docker/mysql/data</span><br><span class="line"> </span><br><span class="line">// 创建my.cnf配置文件</span><br><span class="line">touch /docker/mysql/conf/my.cnf</span><br><span class="line"> </span><br><span class="line">// my.cnf添加如下内容：</span><br><span class="line"></span><br><span class="line">[mysqld]</span><br><span class="line">user=mysql</span><br><span class="line">character-set-server=utf8</span><br><span class="line">default_authentication_plugin=mysql_native_password</span><br><span class="line">[client]</span><br><span class="line">default-character-set=utf8</span><br><span class="line">[mysql]</span><br><span class="line">default-character-set=utf8</span><br><span class="line">// 配置不区分大小写</span><br><span class="line">lower_case_table_names=1</span><br></pre></td></tr></table></figure><p><strong>创建容器，并后台启动</strong>  </p><p>参数说明：</p><p>–privileged=true：容器内的root拥有真正root权限，否则容器内root只是外部普通用户权限</p><p>-v /docker/mysql/conf/my.cnf:/etc/my.cnf：映射配置文件</p><p>-v /docker/mysql/data:/var/lib/mysql：映射数据目录</p><p><code>docker run -d -p 3306:3306 --privileged=true -v /docker/mysql/conf/my.cnf:/etc/mysql/my.cnf -v /docker/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysqltest2 mysql:5.7</code></p><hr><h3 id="查看已经运行的的所有容器"><a href="#查看已经运行的的所有容器" class="headerlink" title="查看已经运行的的所有容器"></a>查看已经运行的的所有容器</h3><p><code>docker ps</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost ~]# docker ps </span><br><span class="line">CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES</span><br><span class="line">9238d9feb10a        mysql:5.7           &quot;docker-entrypoint...&quot;   12 seconds ago      Up 9 seconds        0.0.0.0:3306-&gt;3306/tcp   mysql5.7</span><br><span class="line">[root@localhost ~]#</span><br></pre></td></tr></table></figure><p>OK现在已经成功启动了。可以使用mysql的工具进行连接。</p><h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3><blockquote><p>参考：<a href="https://blog.csdn.net/woniu211111/article/details/80968154" target="_blank" rel="noopener">https://blog.csdn.net/woniu211111/article/details/80968154</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;CentOS使用Docker安装Mysql5.7并挂载外部配置和数据&lt;/em&gt; &lt;/p&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/categories/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/categories/Linux/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/"/>
+    
+      <category term="Docker" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/Docker/"/>
+    
+      <category term="工具安装" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/Docker/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/tags/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/tags/Ubuntu/"/>
+    
+      <category term="Docker" scheme="http://blog.zjc123.cn/tags/Docker/"/>
+    
+      <category term="Mysql" scheme="http://blog.zjc123.cn/tags/Mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS 7安装Docker</title>
+    <link href="http://blog.zjc123.cn/2018/10/16/CentOS%207%E5%AE%89%E8%A3%85Docker/"/>
+    <id>http://blog.zjc123.cn/2018/10/16/CentOS 7安装Docker/</id>
+    <published>2018-10-16T06:47:47.000Z</published>
+    <updated>2019-01-16T09:38:44.273Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>Docker从1.13版本之后采用时间线的方式作为版本号，分为社区版CE和企业版EE。社区版是免费提供给个人开发者和小型团体使用的，企业版会提供额外的收费服务，比如经过官方测试认证过的基础设施、容器、插件等。社区版按照stable和edge两种方式发布，每个季度更新stable版本，如17.06，17.09；每个月份更新edge版本，如17.09，17.10。</em></p><hr><a id="more"></a><h3 id="Docker-求-CentOS-系统的内核版本高于-3-10-，查看本页面的前提条件来验证CentOS-版本是否支持-Docker-。"><a href="#Docker-求-CentOS-系统的内核版本高于-3-10-，查看本页面的前提条件来验证CentOS-版本是否支持-Docker-。" class="headerlink" title="Docker 求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证CentOS 版本是否支持 Docker 。"></a>Docker 求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证CentOS 版本是否支持 Docker 。</h3><p>通过 uname -r 命令查看你当前的内核版本<br><code>uname -r</code></p><h3 id="使用-root-权限登录-Centos。确保-yum-包更新到最新。"><a href="#使用-root-权限登录-Centos。确保-yum-包更新到最新。" class="headerlink" title="使用 root 权限登录 Centos。确保 yum 包更新到最新。"></a>使用 root 权限登录 Centos。确保 yum 包更新到最新。</h3><p><code>sudo yum update</code></p><h3 id="卸载旧版本-如果安装过旧版本的话"><a href="#卸载旧版本-如果安装过旧版本的话" class="headerlink" title="卸载旧版本(如果安装过旧版本的话)"></a>卸载旧版本(如果安装过旧版本的话)</h3><p><code>sudo yum remove docker  docker-common docker-selinux docker-engine</code></p><h3 id="卸载旧版本的包"><a href="#卸载旧版本的包" class="headerlink" title="卸载旧版本的包"></a>卸载旧版本的包</h3><p><code>sudo yum erase docker-common-2:1.12.6-68.gitec8512b.el7.centos.x86_64</code></p><h3 id="安装需要的软件包，-yum-util-提供yum-config-manager功能，另外两个是devicemapper驱动依赖的"><a href="#安装需要的软件包，-yum-util-提供yum-config-manager功能，另外两个是devicemapper驱动依赖的" class="headerlink" title="安装需要的软件包， yum-util 提供yum-config-manager功能，另外两个是devicemapper驱动依赖的"></a>安装需要的软件包， yum-util 提供yum-config-manager功能，另外两个是devicemapper驱动依赖的</h3><p><code>sudo yum install -y yum-utils device-mapper-persistent-data lvm2</code></p><h3 id="设置yum源"><a href="#设置yum源" class="headerlink" title="设置yum源"></a>设置yum源</h3><p><code>sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</code></p><h3 id="查看所有仓库中所有docker版本，并选择特定版本安装"><a href="#查看所有仓库中所有docker版本，并选择特定版本安装" class="headerlink" title="查看所有仓库中所有docker版本，并选择特定版本安装"></a>查看所有仓库中所有docker版本，并选择特定版本安装</h3><p><code>yum list docker-ce --showduplicates | sort -r</code></p><h3 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// 由于repo中默认只开启stable仓库，故这里安装的是最新稳定版17.12.0</span><br><span class="line">sudo yum install docker-ce  </span><br><span class="line"></span><br><span class="line">// 例如：sudo yum install docker-ce-17.12.0.ce</span><br><span class="line">sudo yum install &lt;FQPN&gt;</span><br></pre></td></tr></table></figure><h3 id="启动并加入开机启动"><a href="#启动并加入开机启动" class="headerlink" title="启动并加入开机启动"></a>启动并加入开机启动</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start docker</span><br><span class="line">sudo systemctl enable docker</span><br></pre></td></tr></table></figure><h3 id="验证安装是否成功-有client和service两部分表示docker安装启动都成功了"><a href="#验证安装是否成功-有client和service两部分表示docker安装启动都成功了" class="headerlink" title="验证安装是否成功(有client和service两部分表示docker安装启动都成功了)"></a>验证安装是否成功(有client和service两部分表示docker安装启动都成功了)</h3><p><code>docker version</code></p><h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;Docker从1.13版本之后采用时间线的方式作为版本号，分为社区版CE和企业版EE。社区版是免费提供给个人开发者和小型团体使用的，企业版会提供额外的收费服务，比如经过官方测试认证过的基础设施、容器、插件等。社区版按照stable和edge两种方式发布，每个季度更新stable版本，如17.06，17.09；每个月份更新edge版本，如17.09，17.10。&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/categories/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/categories/Linux/Centos/"/>
+    
+      <category term="Docker" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Docker/"/>
+    
+      <category term="工具安装" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Docker/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/tags/Centos/"/>
+    
+      <category term="Docker" scheme="http://blog.zjc123.cn/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git修改全局初始化的用户名和邮箱(修改user.name 和user.email)</title>
+    <link href="http://blog.zjc123.cn/2018/10/16/Git%E4%BF%AE%E6%94%B9%E5%85%A8%E5%B1%80%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E9%82%AE%E7%AE%B1-%E4%BF%AE%E6%94%B9user-name-%E5%92%8Cuser-email/"/>
+    <id>http://blog.zjc123.cn/2018/10/16/Git修改全局初始化的用户名和邮箱-修改user-name-和user-email/</id>
+    <published>2018-10-16T06:28:44.000Z</published>
+    <updated>2019-01-16T06:37:58.789Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Git修改全局初始化的用户名和邮箱(修改user.name 和user.email)<br><a id="more"></a></p><h3 id="修改用于提交的-用户名和邮箱"><a href="#修改用于提交的-用户名和邮箱" class="headerlink" title="修改用于提交的 用户名和邮箱"></a>修改用于提交的 用户名和邮箱</h3><p><em>输入:</em><br><code>git config --list</code><br>可以查看配置的一些东西。可以看到user.name 和user.email  分别是什么<br>如果你没有初始化过。那么直接：<br><code>git config --global user.name &quot;输入你的用户名&quot;</code><br><code>git config --global user.email &quot;输入你的邮箱&quot;</code></p><p><em>如果初始化过了，可以通过以下操作修改</em><br><code>git config --global --replace-all user.email &quot;输入你的邮箱&quot;</code><br><code>git config --global --replace-all user.name &quot;输入你的用户名&quot;</code></p><p><em>然后再查看下</em><br><code>git config --list</code></p><blockquote><p>参考：<a href="https://blog.csdn.net/sky_miange/article/details/60881282" target="_blank" rel="noopener">https://blog.csdn.net/sky_miange/article/details/60881282</a></p></blockquote><h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;Git修改全局初始化的用户名和邮箱(修改user.name 和user.email)&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/categories/Linux/"/>
+    
+      <category term="Git" scheme="http://blog.zjc123.cn/categories/Linux/Git/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/tags/Linux/"/>
+    
+      <category term="Git" scheme="http://blog.zjc123.cn/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安阳鹊桥网</title>
+    <link href="http://blog.zjc123.cn/2018/09/09/%E5%AE%89%E9%98%B3%E9%B9%8A%E6%A1%A5%E7%BD%91/"/>
+    <id>http://blog.zjc123.cn/2018/09/09/安阳鹊桥网/</id>
+    <published>2018-09-09T06:43:05.000Z</published>
+    <updated>2019-01-16T05:51:44.644Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>安阳鹊桥网是为安阳市总工会开发的一套供工会内部使用的婚恋交友平台，整套系统由两个B/S架构的系统组成。</em></p><a id="more"></a><h3 id="模块功能"><a href="#模块功能" class="headerlink" title="模块功能"></a>模块功能</h3><p>1.微信端由婚恋用户使用（以安阳工会公众号为入口，非工会会员无法登陆）；<br>2.后台管理由工作人员使用；<br>微信端模块功能：<br>(1).我的（管理个人资料、对我的喜欢、喜欢我的、相互喜欢、我的故事、我的活动、我的推荐进行归纳展示）;<br>(3).活动（展示所有活动、并具有参加和查看功能）；<br>(4).首页（对会员进行筛选和喜欢与不喜欢的操作）；<br>后台管理端模块功能：<br>(1).会员管理（具有对会员增、删、改、查功能）；<br>(2).活动管理（具有发布、修改、删除、统计报名功能）；<br>(4).举报管理（核实并对相关用户做处理）；<br>(6).故事统计（统计全网用户发布）；</p><hr><h3 id="主要技术："><a href="#主要技术：" class="headerlink" title="主要技术："></a>主要技术：</h3><p><strong><em>系统使用Nginx反向代理进行前后端分离式的开发；</em></strong><br><strong>后端：</strong> 采用SpringBoot框架、MyBatis做持久层框架、使用slf4j+logback框架进行日志记录、使用Maven做项目版本控制、数据储存使用Mysql、用SVN做源代码版本控制；<br><strong>管理端：</strong> 采用BootStrap框架，动态生成表格；<br><strong>微信端：</strong> 使用vue.js框架；<br><strong>开发工具：</strong> Idea、Webstrom、Nginx；</p><hr><h3 id="责任描述"><a href="#责任描述" class="headerlink" title="责任描述:"></a>责任描述:</h3><p><strong><em>主要负责：</em></strong><br><strong>1.微信端：活动、故事模块JAVA后台API编写；</strong></p><p><img src="http://jpg.zjc123.cn/hl-wx-2-%E6%B4%BB%E5%8A%A8.jpg" alt="活动" title="活动"></p><p><img src="http://jpg.zjc123.cn/hl-wx-3-%E6%B4%BB%E5%8A%A8%E8%AF%A6%E6%83%85.jpg" alt="活动详情" title="活动详情"></p><p><img src="http://jpg.zjc123.cn/hl-wx-8-%E6%95%85%E4%BA%8B.jpg" alt="故事" title="故事"></p><p><strong>2.管理端：活动管理、活动审核、故事统计模块功能的实现（包含Java后端API及前端页面和前后端数据的交互；</strong></p><p><img src="http://jpg.zjc123.cn/hl-ht-2-%E6%B4%BB%E5%8A%A8%E7%AE%A1%E7%90%86.jpg" alt="活动管理" title="活动管理"></p><p><img src="http://jpg.zjc123.cn/hl-ht-3-%E6%95%85%E4%BA%8B%E7%BB%9F%E8%AE%A1.jpg" alt="故事统计" title="故事统计"></p><hr><h3 id="其他功能概览："><a href="#其他功能概览：" class="headerlink" title="其他功能概览："></a>其他功能概览：</h3><p><strong><em>微信端：</em></strong></p><p><img src="http://jpg.zjc123.cn/hl-wx-1-%E9%A6%96%E9%A1%B5.jpg" alt="首页" title="首页"></p><p><img src="http://jpg.zjc123.cn/hl-wx-4%E6%B6%88%E6%81%AF.jpg" alt="消息" title="消息"></p><p><img src="http://jpg.zjc123.cn/hl-wx-5-%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.jpg" alt="个人中心" title="个人中心"></p><p><img src="http://jpg.zjc123.cn/hl-wx-7-%E7%9B%B8%E4%BA%92%E5%96%9C%E6%AC%A2.jpg" alt="相互喜欢" title="相互喜欢"></p><p><strong><em>web宣传</em></strong></p><p><img src="http://jpg.zjc123.cn/hl-web-%E5%AE%A3%E4%BC%A0%E9%A6%96%E9%A1%B5.jpg" alt="宣传首页" title="宣传首页"></p><p><img src="http://jpg.zjc123.cn/hl-web-2-%E6%81%8B%E7%88%B1%E5%AE%9D%E5%85%B8.jpg" alt="恋爱宝典" title="恋爱宝典"></p><p><strong><em>管理端</em></strong></p><p><img src="http://jpg.zjc123.cn/hl-ht-1-%E4%BC%9A%E5%91%98%E7%AE%A1%E7%90%86.jpg" alt="会员管理" title="会员管理"></p><p><img src="http://jpg.zjc123.cn/hl-ht-4-%E6%B4%BB%E5%8A%A8%E6%96%B0%E5%A2%9E.jpg" alt="活动新增" title="活动新增"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;安阳鹊桥网是为安阳市总工会开发的一套供工会内部使用的婚恋交友平台，整套系统由两个B/S架构的系统组成。&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="项目" scheme="http://blog.zjc123.cn/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+      <category term="项目经验" scheme="http://blog.zjc123.cn/tags/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>科研管理平台</title>
+    <link href="http://blog.zjc123.cn/2018/09/09/%E7%A7%91%E7%A0%94%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0/"/>
+    <id>http://blog.zjc123.cn/2018/09/09/科研管理平台/</id>
+    <published>2018-09-09T05:43:48.000Z</published>
+    <updated>2019-01-09T08:41:32.619Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>科研管理平台最初开发的目的主要是为了方便学校领导审批、管理科研项目和学校教职工提交科研项目。</em></p><a id="more"></a><h3 id="模块功能："><a href="#模块功能：" class="headerlink" title="模块功能："></a>模块功能：</h3><p>统计、项目管理、成果管理、经费管理、机构管理、科研活动、科研新闻及系统模块和部门、人员管理，不同登录用户做权限控制。</p><hr><h3 id="主要技术："><a href="#主要技术：" class="headerlink" title="主要技术："></a>主要技术：</h3><p><strong><em>系统使用Nginx反向代理进行前后端分离式的开发；</em></strong><br><strong>前端：</strong> 采用BootStrap框架，动态生成表格；<br><strong>后端：</strong> 采用SpringBoot框架、MyBatis做持久层框架、使用slf4j+logback框架进行日志记录、使用Maven做项目版本控制、数据储存使用Mysql、用SVN做源代码版本控制；<br><strong>开发工具：</strong> MyEclipse、Webstrom、Nginx；</p><hr><h3 id="责任描述"><a href="#责任描述" class="headerlink" title="责任描述:"></a>责任描述:</h3><p><strong><em>主要负责：</em></strong><br><strong>1.用户个人信息修改、管理；</strong><br><img src="http://jpg.zjc123.cn/keyan-5.jpg" alt="部门权限" title="个人信息修改"></p><p><strong>2.项目管理（主页、修改、详情、审核）模块，Java后端业务逻辑代码和前端页面的设计以及前后端数据的交互；</strong><br><img src="http://jpg.zjc123.cn/keyan-2.jpg" alt="项目管理" title="项目管理"></p><hr><h3 id="其他功能概览："><a href="#其他功能概览：" class="headerlink" title="其他功能概览："></a>其他功能概览：</h3><p><strong>统计模块</strong><br><img src="http://jpg.zjc123.cn/keyan-1.jpg" alt="统计" title="统计"></p><p><strong>部门权限管理</strong><br><img src="http://jpg.zjc123.cn/keyan-6.jpg" alt="部门权限管理" title="部门权限"></p><p><strong>新建科研项目</strong><br><img src="http://jpg.zjc123.cn/keyan-3.jpg" alt="新增项目" title="新增项目"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;科研管理平台最初开发的目的主要是为了方便学校领导审批、管理科研项目和学校教职工提交科研项目。&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="项目" scheme="http://blog.zjc123.cn/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+      <category term="项目经验" scheme="http://blog.zjc123.cn/tags/%E9%A1%B9%E7%9B%AE%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git常用操作命令</title>
+    <link href="http://blog.zjc123.cn/2018/02/05/Git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/"/>
+    <id>http://blog.zjc123.cn/2018/02/05/Git常用操作命令/</id>
+    <published>2018-02-05T05:52:20.000Z</published>
+    <updated>2019-01-16T09:51:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>本文记载了一些Git常用的命令,更多命令请移步官方网站。</em></p><a id="more"></a><hr><h3 id="本地初始化一个项目"><a href="#本地初始化一个项目" class="headerlink" title="本地初始化一个项目"></a>本地初始化一个项目</h3><p><em>首先，你需要执行下面两条命令，作为 git 的基础配置，作用是告诉 git 你是谁，你输入的信息将出现在你创建的提交中。</em><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;你的名字或昵称&quot;</span><br><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure></p><p><em>然后在你的需要初始化版本库的文件夹中执行：</em><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git init </span><br><span class="line"></span><br><span class="line">// 注:项目地址形式为:https://gitee.com/xxx/xxx.git或者 git@gitee.com:xxx/xxx.git</span><br><span class="line">git remote add origin &lt;你的项目地址&gt;</span><br></pre></td></tr></table></figure></p><p>这样就完成了一次版本你的初始化。</p><p><em>如果你想克隆一个项目，只需要切换到指定文件夹执行：</em><br><code>git clone &lt;项目地址&gt;</code></p><hr><h3 id="完成第一次提交"><a href="#完成第一次提交" class="headerlink" title="完成第一次提交"></a>完成第一次提交</h3><p><em>进入你已经初始化好的或者克隆项目的目录,然后执行：</em><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">// 注意：养成每次提交前更新一次内容 </span><br><span class="line">git pull origin dev</span><br><span class="line"></span><br><span class="line">// 这里需要修改/添加文件，否则与原文件相比就没有变动</span><br><span class="line">git add .</span><br><span class="line"></span><br><span class="line">// 注意：养成每次提交备注信息的习惯</span><br><span class="line">git commit -m &quot;第一次提交&quot;</span><br><span class="line"></span><br><span class="line">// 从本地仓库提交到远程仓库</span><br><span class="line">git push origin dev</span><br></pre></td></tr></table></figure></p><p><em>然后如果需要账号密码的话就输入账号密码，这样就完成了一次提交。</em> </p><hr><h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3><blockquote><p>参考：<a href="http://git.mydoc.io/?t=180676#text_180676" target="_blank" rel="noopener">http://git.mydoc.io/?t=180676#text_180676</a><br>Git大全：<a href="https://gitee.com/all-about-git" target="_blank" rel="noopener">https://gitee.com/all-about-git</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;本文记载了一些Git常用的命令,更多命令请移步官方网站。&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/categories/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/categories/Linux/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/"/>
+    
+      <category term="Git" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/Git/"/>
+    
+      <category term="个人笔记" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/Git/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/tags/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/tags/Ubuntu/"/>
+    
+      <category term="Git" scheme="http://blog.zjc123.cn/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SVN常用操作命令</title>
+    <link href="http://blog.zjc123.cn/2018/02/01/SVN%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/"/>
+    <id>http://blog.zjc123.cn/2018/02/01/SVN常用操作命令/</id>
+    <published>2018-02-01T04:01:28.000Z</published>
+    <updated>2019-01-16T09:51:44.010Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>SVN作为日常开发中不可缺少的工具，Ubuntu下的SVN安装十分简单，sudo apt-get install subversion，然后根据提示一步一步，就完成了SVN的安装，本文记载了一些svn常用的命令,更多命令请移步官方网站。</em></p><a id="more"></a><hr><h3 id="将文件checkout到本地目录"><a href="#将文件checkout到本地目录" class="headerlink" title="将文件checkout到本地目录"></a>将文件checkout到本地目录</h3><p>命令：<code>checkout</code>或<code>co</code></p><p>示例：</p><p>1、svn co http://路径(目录或文件的全路径)　[本地目录全路径] –username 用户名–password 密码</p><p>2、svn co svn://路径(目录或文件的全路径)　[本地目录全路径] –username 用户名–password 密码</p><p>3、svn checkout http://路径(目录或文件的全路径)　[本地目录全路径] –username　用户名</p><p>4、svn checkout svn://路径(目录或文件的全路径)　[本地目录全路径] –username　用户名</p><p>注意事项：</p><p>1、如果不带–password参数传输密码的话，会提示输入密码，建议不要用明文的–password选项。推荐使用示例c、d，其执行之后会提示输入密码</p><p>2、其中username 与password前是两个短线，不是一个。</p><p>3、若不指定本地目录全路径，则检出到当前目录下。</p><p>例子：</p><p><code>svn cosvn://192.168.0.6/test /home/test --username xxx</code></p><p><code>svn cohttp://192.168.0.6/test/testapp --username xxx</code></p><p><code>svn checkoutsvn://192.168.0.6/ test /home/ test --username xxx</code></p><p><code>svn checkouthttp://192.168.0.3/test/testapp --username xxx</code></p><hr><h3 id="添加新文件"><a href="#添加新文件" class="headerlink" title="添加新文件"></a>添加新文件</h3><p>命令：<code>svn add</code></p><p><code>svn add 文件名</code></p><p>注：告诉SVN服务器要添加文件了，还要用<code>svncommint -m</code>真实的上传上去！</p><p>例子：</p><p>I、svnadd test.c ＜－添加test.c</p><p>svn commint -m “添加测试用test.c“test.php</p><p>II、svnadd *.c ＜－添加当前目录下所有的c文件</p><p>svn commint -m“添加测试用全部c文件“*.c</p><hr><h3 id="导出-导出一个干净的不带-svn文件夹的目录"><a href="#导出-导出一个干净的不带-svn文件夹的目录" class="headerlink" title="导出(导出一个干净的不带.svn文件夹的目录)"></a>导出(导出一个干净的不带.svn文件夹的目录)</h3><p>命令：<code>svn export</code></p><p>svn export [-r 版本号] http://路径(目录或文件的全路径)[本地目录全路径]　–username　用户名</p><p>svn export [-r 版本号] svn://路径(目录或文件的全路径)[本地目录全路径]　–username　用户名</p><p>svn export 本地检出的(即带有.svn文件夹的)目录全路径 要导出的本地目录全路径</p><p>注：第一种从版本库导出干净工作目录树的形式是指定URL，</p><p>　　　如果指定了修订版本号，会导出相应的版本，</p><p>　　　如果没有指定修订版本，则会导出最新的，导出到指定位置。</p><p>　　　如果省略本地目录全路径，URL的最后一部分会作为本地目录的名字。</p><p>第二种形式是指定本地检出的目录全路径到要导出的本地目录全路径，所有的本地修改将会保留，但是不在版本控制下(即没提交的新文件，因为.svn文件夹里没有与之相关的信息记录)的文件不会拷贝。</p><p>例子：</p><p><code>svn exportsvn://192.168.0.3/ test /home/ test --username xxx</code></p><p><code>svn exporthttp://192.168.0.3/test/testapp --username xxx</code></p><p><code>svn export /home/ test/home/ testbak</code></p><hr><h3 id="将改动的文件提交到版本库"><a href="#将改动的文件提交到版本库" class="headerlink" title="将改动的文件提交到版本库"></a>将改动的文件提交到版本库</h3><p>命令：<code>svn commint</code>或<code>svn ci</code></p><p>svn　commint　-m　“提交备注信息文本“　[-N]　[–no-unlock]　文件名</p><p>svn　ci　-m　“提交备注信息文本“　[-N]　[–no-unlock]　文件名</p><p>svn commit -m”LogMessage” [-N] [–no-unlock]PATH(如果选择了保持锁,就使用–no-unlock开关)</p><p>必须带上-m参数，参数可以为空，但是必须写上-m</p><p>例子：</p><p>svn commint -m“提交当前目录下的全部在版本控制下的文件“<em> ＜－注意这个</em>表示全部文件</p><p>svn commint -m“提交测试用test.c“test.c</p><p>svn commint -m“提交测试用test.c“-N –no-unlock test.c ＜－保持锁就用–no-unlock开关</p><p>svn ci -m“提交当前目录下的全部在版本控制下的文件“<em> ＜－注意这个</em>表示全部文件</p><p>svn ci -m “提交测试用test.c“test.c</p><p>svn ci -m “提交测试用test.c“-N –no-unlock test.c ＜－保持锁就用–no-unlock开关</p><hr><h3 id="更新文件"><a href="#更新文件" class="headerlink" title="更新文件"></a>更新文件</h3><p>命令：<code>svn pdate</code>或<code>svn up</code></p><p><code>svn update -r 修正版本 文件名</code></p><p><code>svn update 文件名</code></p><p>例子：</p><p>svn update ＜－后面没有目录，默认将当前目录以及子目录下的所有文件都更新到最新版本</p><p>svn update -r 1300test.c ＜－将版本库中的文件test.c 还原到修正版本（revision）1300</p><p>svn update test.c ＜－更新与版本库同步。</p><p>提交的时候提示过期冲突，需要先update 修改文件，</p><p>然后清除svnresolved，最后再提交commit。</p><h3 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h3><p>命令：<code>svn elete</code>或<code>svn del</code>, <code>svnremove</code>, <code>svnrm</code></p><p>svn　delete　svn://路径(目录或文件的全路径)-m “删除备注信息文本”</p><p>推荐如下操作：</p><p><code>svn delete 文件名</code></p><p><code>svn ci -m “删除备注信息文本”</code></p><p>例子：</p><p><code>svn deletesvn://192.168.1.1/ trunk /main /test.c -m “删除测试文件test.c”</code></p><p>推荐如下操作：</p><p><code>svn delete test.c</code></p><p><code>svn ci -m“删除测试文件test.c”</code></p><p><code>svn delete path -m&quot;delete test fle&quot;</code></p><p>例如：<code>svndelete svn://192.168.1.1/ trunk /main/test.c -m &quot;delete testfile&quot;</code></p><p>或者直接svndelete test.c 然后再svnci -m ‘delete test file‘,推荐使用这种</p><hr><h3 id="加锁-解锁"><a href="#加锁-解锁" class="headerlink" title="加锁/解锁"></a>加锁/解锁</h3><p>命令：<code>svn lock</code></p><p>svn　lock　-m　“加锁备注信息文本“　[–force]　文件名</p><p>svn　unlock　文件名</p><p>svn lock -m”LockMessage” [–force] PATH</p><p>例如：svnlock -m “lock test file” test.c</p><p>svn unlock PATH</p><p>例子：</p><p><code>svn lock -m“锁信测试用test.c文件“test.c</code></p><p><code>svn unlock test.php</code></p><hr><h3 id="比较差异"><a href="#比较差异" class="headerlink" title="比较差异"></a>比较差异</h3><p>命令：<code>svn diff</code></p><p><code>svn diff 文件名</code></p><p><code>svn diff　-r　修正版本号m:修正版本号n　文件名</code></p><p>例子：</p><p>svn diff test.php＜－将修改的文件与基础版本比较</p><p>svn diff -r 200:201test.php＜－对 修正版本号200和修正版本号201 比较差异</p><p>svn diffpath(将修改的文件与基础版本比较)</p><p>例如：</p><p><code>svndiff test.php</code></p><p>svn diff -r m:npath(对版本m和版本n比较差异)</p><p>例如：</p><p><code>svndiff -r 200:201 test.php</code></p><p>简写：svndi</p><hr><h3 id="将两个版本之间的差异合并到当前文件"><a href="#将两个版本之间的差异合并到当前文件" class="headerlink" title="将两个版本之间的差异合并到当前文件"></a>将两个版本之间的差异合并到当前文件</h3><p>命令：<code>svnmerge</code></p><p><code>svn merge -r m:n path</code></p><p>例如：svnmerge -r 200:205 test.php（将版本200与205之间的差异合并到当前文件,但是一般都会产生冲突,需要处理一下）</p><hr><h3 id="查看文件或者目录状态"><a href="#查看文件或者目录状态" class="headerlink" title="查看文件或者目录状态"></a>查看文件或者目录状态</h3><p>命令：<code>svnstatus</code> 或 <code>svnst</code></p><p>svn st 目录路径/名</p><p>svn status 目录路径/名＜－目录下的文件和子目录的状态，正常状态不显示</p><p>　　　　　　　　　　　　　【?：不在svn的控制中； M：内容被修改；C：发生冲突；</p><p>　　　　　　　　　　　　　　A：预定加入到版本库；K：被锁定】</p><p>svn -v 目录路径/名</p><p>svn status -v 目录路径/名＜－显示文件和子目录状态</p><p>　　　　　　　　　　　　　　【第一列保持相同，第二列显示工作版本号，</p><p>　　　　　　　　　　　　　　　第三和第四列显示最后一次修改的版本号和修改人】</p><p>注：svnstatus、svndiff和svn revert这三条命令在没有网络的情况下也可以执行的，</p><p>　　原因是svn在本地的.svn中保留了本地版本的原始拷贝。</p><p>1）svnstatus path（目录下的文件和子目录的状态,正常状态不显示）</p><p>【?：不在svn的控制中；M：内容被修改；C：发生冲突；A：预定加入到版本库；K：被锁定】</p><p>2）svnstatus -v path(显示文件和子目录状态)</p><p>第一列保持相同,第二列显示工作版本号,第三和第四列显示最后一次修改的版本号和修改人.</p><p>注：svnstatus、svndiff和svnrevert这三条命令在没有网络的情况下也可以执行的,原因是svn在本地的.svn中保留了本地版本的原始拷贝.</p><p>简写：svnst</p><hr><h3 id="查看日志"><a href="#查看日志" class="headerlink" title="查看日志"></a>查看日志</h3><p>命令：<code>svn log</code>　</p><p><code>svn log 文件名</code></p><p><code>svn log path</code></p><p>例子：</p><p>svn log test.php＜－显示这个文件的所有修改记录，及其版本号的变化</p><hr><h3 id="查看文件详细信息"><a href="#查看文件详细信息" class="headerlink" title="查看文件详细信息"></a>查看文件详细信息</h3><p>命令：<code>svn info</code></p><p><code>svn info 文件名</code></p><p><code>svn info path</code></p><p>例子：</p><p><code>svn info test.php</code></p><hr><h3 id="SVN帮助"><a href="#SVN帮助" class="headerlink" title="SVN帮助"></a>SVN帮助</h3><p>命令：<code>svn help</code></p><p><code>svn help＜－全部功能选项</code></p><p><code>svn help　ci＜－具体功能的说明</code></p><hr><h3 id="查看版本库下的文件和目录列表"><a href="#查看版本库下的文件和目录列表" class="headerlink" title="查看版本库下的文件和目录列表"></a>查看版本库下的文件和目录列表</h3><p>命令：<code>svn list</code>或<code>svn ls</code></p><p>svn　list　svn://路径(目录或文件的全路径)</p><p>svn　ls　svn://路径(目录或文件的全路径)</p><p>例子：</p><p><code>svn listsvn://192.168.0.3/test</code></p><p>svn lssvn://192.168.0.3/test ＜－显示svn://192.168.0.3/test目录下的所有属于版本库的文件和目录</p><hr><h3 id="创建纳入版本控制下的新目录"><a href="#创建纳入版本控制下的新目录" class="headerlink" title="创建纳入版本控制下的新目录"></a>创建纳入版本控制下的新目录</h3><p>命令：<code>svn mkdir</code></p><p><code>svn mkdir 目录名</code></p><p>svn　mkdir　-m　“新增目录备注文本”　http://目录全路径</p><p>创建版本控制的目录.</p><p>1、每一个以工作副本PATH 指定的目录,都会创建在本地端,并且加入新增</p><p>调度,以待下一次的提交.</p><p>2、每个以URL指定的目录,都会透过立即提交于仓库中创建.</p><p>在这两个情况下,所有的中间目录都必须事先存在.</p><p>例子：</p><p><code>svn mkdir newdir</code></p><p><code>svn mkdir -m &quot;Makinga new dir.&quot; http://192.168.0.3/test/newdir</code></p><p>注：添加完子目录后，一定要回到根目录更新一下，不然在该目录下提交文件会提示“提交失败”</p><p>svn update</p><p>注：如果手工在checkout出来的目录里创建了一个新文件夹newsubdir，</p><p>　　再用svnmkdir newsubdir命令后，SVN会提示：</p><p>　　svn:尝试用“svn add”或“svn add –non-recursive”代替？</p><p>　　svn:无法创建目录“hello”:文件已经存在</p><p>　　此时，用如下命令解决：</p><p>　　svnadd –non-recursive newsubdir</p><p>　　在进入这个newsubdir文件夹，用ls-a查看它下面的全部目录与文件，会发现多了：.svn目录</p><p>　　再用svn mkdir -m “添hello功能模块文件”svn://192.168.0.3/test/newdir/newsubdir 命令，</p><p>　　SVN提示：</p><p>　　svn:File already exists: filesystem ‘/data/svnroot/test/db’, transaction’4541-1’,</p><p>　　path’/newdir/newsubdir ‘</p><hr><h3 id="恢复本地修改-恢复原始未改变的工作副本文件"><a href="#恢复本地修改-恢复原始未改变的工作副本文件" class="headerlink" title="恢复本地修改,恢复原始未改变的工作副本文件"></a>恢复本地修改,恢复原始未改变的工作副本文件</h3><p>命令：<code>svn revert</code></p><p>svn　revert　[–recursive]　文件名</p><p>注意:本子命令不会存取网络，并且会解除冲突的状况。但是它不会恢复被删除的目录。</p><p>例子：</p><p>svn revert foo.c ＜－丢弃对一个文件的修改</p><p>svn revert –recursive. ＜－恢复一整个目录的文件，.为当前目录</p><hr><h3 id="代码库URL变更-把工作拷贝更新到别的URL"><a href="#代码库URL变更-把工作拷贝更新到别的URL" class="headerlink" title="代码库URL变更,把工作拷贝更新到别的URL"></a>代码库URL变更,把工作拷贝更新到别的URL</h3><p>命令：svn　switch或svnsw</p><p>svn　switch　http://目录全路径　本地目录全路径</p><p>例子：</p><p>svn switch<a href="http://192.163.0.3/test/456" target="_blank" rel="noopener">http://192.163.0.3/test/456</a> . ＜－(原为123的分支)当前所在目录分支到192.163.0.3/test/456</p><p>svn switch (sw):更新工作副本至不同的URL.</p><p>用法:1、switchURL [PATH]</p><p>2、switch–relocate FROM TO [PATH…]</p><p>1、更新你的工作副本,映射到一个新的URL,其行为跟“svnupdate”很像,也会将</p><p>服务器上文件与本地文件合并.这是将工作副本对应到同一仓库中某个分支或者标记的</p><p>方法.</p><p>2、改写工作副本的URL元数据,以反映单纯的URL上的改变.当仓库的根URL变动</p><p>(比如方案名或是主机名称变动),但是工作副本仍旧对映到同一仓库的同一目录时使用</p><p>这个命令更新工作副本与仓库的对应关系.</p><hr><h3 id="解决冲突-移除工作副本的目录或文件的“冲突”状态"><a href="#解决冲突-移除工作副本的目录或文件的“冲突”状态" class="headerlink" title="解决冲突, 移除工作副本的目录或文件的“冲突”状态."></a>解决冲突, 移除工作副本的目录或文件的“冲突”状态.</h3><p>命令：<code>svn resolved</code></p><p>svn　resolved　[本地目录全路径]</p><p>例子：</p><p>$ svn update</p><p>C foo.c</p><p>Updated to revision 31.</p><p>如果你在更新时得到冲突，你的工作拷贝会产生三个新的文件：</p><p>$ ls</p><p>foo.c</p><p>foo.c.mine</p><p>foo.c.r30</p><p>foo.c.r31</p><p>当你解决了foo.c的冲突，并且准备提交，运行svnresolved让你的工作拷贝知道你已经完成了所有事情。</p><p>你可以仅仅删除冲突的文件并且提交，但是svnresolved除了删除冲突文件，还修正了一些记录在工作拷贝管理区域的记录数据，所以我们推荐你使用这个命令。</p><p>注意:本子命令不会依语法来解决冲突或是移除冲突标记；它只是移除冲突的</p><p>相关文件,然后让PATH 可以再次提交.</p><hr><p>19、不checkout而查看输出特定文件或URL的内容</p><p>命令：<code>svn cat</code> </p><p><code>svn　cat　http://文件全路径</code></p><p>svn cat目标[@版本]…如果指定了版本,将从指定的版本开始查找.</p><p>svn cat -r PREVfilename &gt; filename (PREV 是上一版本</p><p>例子：</p><p><code>svn cathttp://192.168.0.3/test/readme.txt</code></p><hr><blockquote><p>参考：<br><a href="https://www.cnblogs.com/liuxiaowei/p/8297268.html" target="_blank" rel="noopener">https://www.cnblogs.com/liuxiaowei/p/8297268.html</a><br><a href="https://lee2013.iteye.com/blog/1058047" target="_blank" rel="noopener">https://lee2013.iteye.com/blog/1058047</a></p></blockquote><h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;SVN作为日常开发中不可缺少的工具，Ubuntu下的SVN安装十分简单，sudo apt-get install subversion，然后根据提示一步一步，就完成了SVN的安装，本文记载了一些svn常用的命令,更多命令请移步官方网站。&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/categories/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/categories/Linux/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/"/>
+    
+      <category term="个人笔记" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/tags/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/tags/Ubuntu/"/>
+    
+      <category term="SVN" scheme="http://blog.zjc123.cn/tags/SVN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux操作常用命令(个人记载-持续补充)</title>
+    <link href="http://blog.zjc123.cn/2017/12/23/Linux%E6%93%8D%E4%BD%9C%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-%E4%B8%AA%E4%BA%BA%E8%AE%B0%E8%BD%BD-%E6%8C%81%E7%BB%AD%E8%A1%A5%E5%85%85/"/>
+    <id>http://blog.zjc123.cn/2017/12/23/Linux操作常用命令-个人记载-持续补充/</id>
+    <published>2017-12-23T07:38:09.000Z</published>
+    <updated>2019-01-16T09:51:43.990Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>Linux操作常用命令(个人记载-持续补充)</em> </p><a id="more"></a><hr><h3 id="文件-文件夹管理"><a href="#文件-文件夹管理" class="headerlink" title="文件/文件夹管理"></a>文件/文件夹管理</h3><p><code>ls</code> 列出当前目录文件（不包括隐含文件）<br><code>ls -a</code> 列出当前目录文件（包括隐含文件）<br><code>ls -l</code> 列出当前目录下文件的详细信息</p><p><code>cd ..</code> 回当前目录的上一级目录<br><code>cd -</code> 回上一次所在的目录<br><code>cd ~</code> 或 <code>cd</code> 回当前用户的宿主目录<br><code>touch</code> 创建空文件<br><code>echo</code> 创建带有内容的文件<br><code>cat</code> 查看文件内容<br><code>cp</code> 拷贝</p><p><code>mkdir 目录名</code> 创建一个目录<br><code>rmdir 空目录名</code> 删除一个空目录<br><code>rm 文件名 文件名</code> 删除一个文件或多个文件<br><code>rm -rf</code> 非空目录名 删除一个非空目录下的一切  </p><p><code>mv 文件 /路径</code>  移动文件到指定目录<br><code>mv 文件名 新名称</code> 在当前目录下改名<br><code>find 路经 -name “字符串”</code> 查找路经所在范围内满足字符串匹配的文件和目录<br><code>wc</code> 统计文本中行数、字数、字符数<br><code>grep</code> 在文本文件中查找某个字符串  </p><hr><h3 id="vim使用"><a href="#vim使用" class="headerlink" title="vim使用"></a>vim使用</h3><p>vim三种模式：命令模式、插入模式、编辑模式。使用ESC或i或：来切换模式。</p><p>命令模式下：</p><p>:<code>q</code>                      退出</p><p>:<code>q!</code>                     强制退出</p><p>:<code>wq</code>                    保存并退出</p><p>:<code>set number</code>             显示行号</p><p>:<code>set nonumber</code>           隐藏行号</p><p>/apache            在文档中查找apache 按n跳到下一个，shift+n上一个</p><p>yyp                   复制光标所在行，并粘贴</p><p>h(左移一个字符←)、j(下一行↓)、k(上一行↑)、l(右移一个字符→)</p><hr><h3 id="系统管理"><a href="#系统管理" class="headerlink" title="系统管理"></a>系统管理</h3><p><code>clear</code> 清屏<br><code>ifconfig</code> 查看网络情况<br><code>ping ip</code> 测试网络连通<br><code>netstat</code> 显示网络状态信息<br><code>netstat -ntl</code> 查看端口使用情况<br><code>nohup java -jar anyanghl.jar &amp;</code> 执行程序并使其后台运行<br><code>nohup java -jar anyanghl.jar &amp; &gt; test.txt</code> 执行程序并使其后台运行输出日志到项目文件夹下的test.txt文件<br><code>tail -f test.txt</code> 查看后台执行日志</p><p><code>fdisk fdisk -l</code> 查看系统分区信息<br><code>fdisk fdisk /dev/sdb</code> 为一块新的SCSI硬盘进行分区<br><code>chown chown root /home</code> 把/home的属主改成root用户<br><code>chgrp chgrp root /home</code> 把/home的属组改成root组  </p><p><code>Useradd</code>创建一个新的用户<br><code>Groupadd</code> 组名 创建一个新的组<br><code>Passwd</code> 用户名 为用户创建密码<br><code>Passwd -d</code>用户名 删除用户密码也能登陆<br><code>Passwd -S</code>用户名 查询账号密码<br><code>Usermod -l</code> 新用户名 老用户名 为用户改名<br><code>Userdel–r</code> 用户名 删除用户一切  </p><p><code>stat</code> 显示指定文件的详细信息，比ls更详细<br><code>who</code> 显示在线登陆用户<br><code>whoami</code> 显示当前操作用户<br><code>hostname</code>  显示主机名<br><code>uname</code> 显示系统信息  </p><p><code>uname -a</code> 查看内核版本<br><code>sudo fdisk -l</code> 查看磁盘信息<br><code>df -h</code> 查看硬盘剩余空间<br><code>free -m</code> 查看当前的内存使用情况<br><code>ps -ef</code> 查看当前有哪些进程<br><code>ps -ef | grep nginx</code> 显示名为Nginx的进程<br><code>kill 进程号</code> (就是ps -ef中的第一列的数字)或者 killall 进程名( 杀死一个进程)<br><code>kill -9 进程号</code> 强制杀死一个进程  </p><p><code>reboot Init 6</code> 重启LINUX系统<br><code>Halt Init 0 Shutdown –h now</code> 关闭LINUX系统</p><hr><h3 id="打包-解压"><a href="#打包-解压" class="headerlink" title="打包/解压"></a>打包/解压</h3><p>tar -c 创建包 –x 释放包 -v 显示命令过程 –z 代表压缩包<br><code>tar –cvf benet.tar /home/benet</code> 把/home/benet目录打包<br><code>tar –zcvf benet.tar.gz /mnt</code> 把目录打包并压缩<br><code>tar –zxvf benet.tar.gz</code> 压缩包的文件解压恢复<br><code>tar –jxvf benet.tar.bz2</code> 解压缩  </p><hr><h3 id="make编译"><a href="#make编译" class="headerlink" title="make编译"></a>make编译</h3><p><code>make</code> 编译<br><code>make install</code> 安装编译好的源码包 </p><hr><h3 id="文件权限管理"><a href="#文件权限管理" class="headerlink" title="文件权限管理"></a>文件权限管理</h3><pre><code>三种基本权限R          读         数值表示为4W          写         数值表示为2X          可执行     数值表示为1 </code></pre><p>jdk-7u21-linux-i586.tar.gz文件的权限为-rw-rw-r—rw-rw-r–一共十个字符，分成四段<br>第一个字符“-”表示普通文件；这个位置还可能会出现“l”链接；“d”表示目录<br>第二三四个字符“rw-”表示当前所属用户的权限。   所以用数值表示为4+2=6<br>第五六七个字符“rw-”表示当前所属组的权限。      所以用数值表示为4+2=6<br>第八九十个字符“r–”表示其他用户权限。              所以用数值表示为4<br>所以操作此文件的权限用数值表示为664<br>更改权限<br>sudo chmod [u所属用户  g所属组  o其他用户  a所有用户]  [+增加权限  -减少权限]  [r  w  x]   目录名<br>例如：有一个文件filename，权限为“-rw-r—-x” ,将权限值改为”-rwxrw-r-x”，用数值表示为765<br>sudo chmod u+x g+w o+r  filename<br>上面的例子可以用数值表示<br>sudo chmod 765 filename  </p><hr><h3 id="关机-重启机器"><a href="#关机-重启机器" class="headerlink" title="关机/重启机器"></a>关机/重启机器</h3><pre><code>shutdown     -r             关机重启     -h             关机不重启     now            立刻关机halt                关机reboot              重启</code></pre><hr><h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;Linux操作常用命令(个人记载-持续补充)&lt;/em&gt; &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/categories/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/categories/Linux/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/"/>
+    
+      <category term="个人笔记" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/tags/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/tags/Ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux下安装JDK及配置环境变量</title>
+    <link href="http://blog.zjc123.cn/2017/12/23/Linux%E4%B8%8B%E5%AE%89%E8%A3%85JDK%E5%8F%8A%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/"/>
+    <id>http://blog.zjc123.cn/2017/12/23/Linux下安装JDK及配置环境变量/</id>
+    <published>2017-12-23T06:25:13.000Z</published>
+    <updated>2019-01-16T05:43:32.834Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>Linux下通过压缩包方式安装JDK以及配置环境变量。</em></p><a id="more"></a><hr><h3 id="1-oracle官网下载JDK"><a href="#1-oracle官网下载JDK" class="headerlink" title="1.oracle官网下载JDK"></a>1.oracle官网下载JDK</h3><p><a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="noopener">点击跳转至JDK官方下载链接</a><br><img src="http://jpg.zjc123.cn/jdk%E4%B8%8B%E8%BD%BD%E5%9B%BE.jpg" alt="选择系统相应的JDK" title="选择JDK"></p><h3 id="2-解压文件"><a href="#2-解压文件" class="headerlink" title="2.解压文件"></a>2.解压文件</h3><p><code>tar -zxvf jdk-8u192-linux-x64.tar.gz</code></p><h3 id="3-移动文件到指定目录"><a href="#3-移动文件到指定目录" class="headerlink" title="3.移动文件到指定目录"></a>3.移动文件到指定目录</h3><p><strong><em>目录自定义 这里选择/opt</em></strong><br><code>sudo mv jdk1.8.0_192 /opt</code></p><h3 id="4-配置环境变量"><a href="#4-配置环境变量" class="headerlink" title="4.配置环境变量"></a>4.配置环境变量</h3><p><strong><em>1.打开配置文件</em></strong><br><code>sudo vim /etc/profile</code></p><p><strong><em>2.在文件末尾添加以下代码</em></strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1 export JAVA_HOME=/opt/jdk1.8.0_192</span><br><span class="line">2 export JRE_HOME=$&#123;JAVA_HOME&#125;/jre</span><br><span class="line">3 export CLASSPATH=.:$&#123;JAVA_HOME&#125;/lib:$&#123;JRE_HOME&#125;/lib</span><br><span class="line">4 export PATH=.:$&#123;JAVA_HOME&#125;/bin:$PATH</span><br></pre></td></tr></table></figure></p><h3 id="4-使配置文件生效"><a href="#4-使配置文件生效" class="headerlink" title="4.使配置文件生效"></a>4.使配置文件生效</h3><p><code>source /etc/profile</code></p><h3 id="6-检查是否配置成功"><a href="#6-检查是否配置成功" class="headerlink" title="6.检查是否配置成功"></a>6.检查是否配置成功</h3><p><code>java -version</code><br><strong><em>出现对应版本号则配置成功</em></strong>  </p><h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;Linux下通过压缩包方式安装JDK以及配置环境变量。&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/categories/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/categories/Linux/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/"/>
+    
+      <category term="工具安装" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/tags/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/tags/Ubuntu/"/>
+    
+      <category term="Java" scheme="http://blog.zjc123.cn/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux下安装Nginx</title>
+    <link href="http://blog.zjc123.cn/2017/12/23/Linux%E4%B8%8B%E5%AE%89%E8%A3%85Nginx/"/>
+    <id>http://blog.zjc123.cn/2017/12/23/Linux下安装Nginx/</id>
+    <published>2017-12-23T02:30:41.000Z</published>
+    <updated>2019-01-16T05:43:32.874Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>Nginx (“engine x”) 是一个高性能的 HTTP 和 反向代理 服务器，也是一个 IMAP/POP3/SMTP 代理服务器。 Nginx 是由 Igor Sysoev 为俄罗斯访问量第二的 Rambler.ru 站点开发的,第一个公开版本0.1.0发布于2004年10月4日。其将源代码以类BSD许可证的形式发布，因它的稳定性、丰富的功能集、示例配置文件和低系统资源的消耗而闻名。</em></p><a id="more"></a><hr><h3 id="1-安装gcc-g-的依赖库："><a href="#1-安装gcc-g-的依赖库：" class="headerlink" title="1.安装gcc g++的依赖库："></a>1.安装gcc g++的依赖库：</h3><p><strong><em>Ubuntu使用以下命令：</em></strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.apt-get install build-essential</span><br><span class="line">2.apt-get install libtool</span><br></pre></td></tr></table></figure></p><p><strong><em>CentOs使用以下命令：</em></strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.yum -y install gcc automake autoconf libtool make </span><br><span class="line">2.yum install gcc gcc-c++</span><br></pre></td></tr></table></figure></p><h3 id="2-安装-pcre依赖库"><a href="#2-安装-pcre依赖库" class="headerlink" title="2.安装 pcre依赖库"></a>2.安装 pcre依赖库</h3><pre><code>1.sudo apt-get update  2.sudo apt-get install libpcre3 libpcre3-dev</code></pre><h3 id="3-安装-zlib依赖库"><a href="#3-安装-zlib依赖库" class="headerlink" title="3.安装 zlib依赖库"></a>3.安装 zlib依赖库</h3><p><code>apt-get install zlib1g-dev</code>  </p><h3 id="4-安装-ssl依赖库"><a href="#4-安装-ssl依赖库" class="headerlink" title="4.安装 ssl依赖库"></a>4.安装 ssl依赖库</h3><p><code>apt-get install openssl</code></p><h3 id="5-安装Nginx"><a href="#5-安装Nginx" class="headerlink" title="5.安装Nginx"></a>5.安装Nginx</h3><p><strong>(1)下载最新版本：</strong><br><code>wget http://nginx.org/download/nginx-1.11.3.tar.gz</code><br><strong>(2)解压：</strong><br><code>tar -zxvf nginx-1.11.3.tar.gz</code><br><strong>(3)进入解压目录：</strong><br><code>cd nginx-1.11.3</code><br><strong>(4)配置：</strong><br><code>#这里的目录就是解压后的文件目录，具体看个人</code><br><code>./configure --prefix=/usr/local/nginx</code><br><strong>()编辑nginx：</strong><br><code>make</code><br>注意：这里可能会报错，提示“pcre.h No such file or directory”,具体详见：<a href="http://stackoverflow.com/questions/22555561/error-building-fatal-error-pcre-h-no-such-file-or-directory" target="_blank" rel="noopener">http://stackoverflow.com/questions/22555561/error-building-fatal-error-pcre-h-no-such-file-or-directory</a><br>需要安装 libpcre3-dev,命令为：<code>sudo apt-get install libpcre3-dev</code><br><strong>安装nginx：</strong><br><code>sudo make install</code><br><strong>启动nginx：</strong><br><code>sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf</code><br>注意：-c 指定配置文件的路径，不加的话，nginx会自动加载默认路径的配置文件，可以通过 -h查看帮助命令。<br><strong>查看nginx进程：</strong><br><code>ps -ef|grep nginx</code></p><h3 id="6-Nginx常用命令"><a href="#6-Nginx常用命令" class="headerlink" title="6.Nginx常用命令"></a>6.Nginx常用命令</h3><p><strong>进入Nginx目录</strong><br><code>cd /usr/local/nginx</code><br><strong>启动Nginx</strong><br><code>./sbin/nginx</code><br><strong>停止 Nginx</strong><br><code>./sbin/nginx -s stop</code><br><strong>Nginx重新加载配置</strong><br><code>./sbin/nginx -s reload</code><br><strong>指定配置文件</strong><br><code>./sbin/nginx -c /usr/local/nginx/conf/nginx.conf</code><br><strong>查看 Nginx 版本</strong><br><code>./sbin/nginx -v</code><br><strong>检查配置文件是否正确</strong><br><code>./sbin/nginx -t</code></p><h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;Nginx (“engine x”) 是一个高性能的 HTTP 和 反向代理 服务器，也是一个 IMAP/POP3/SMTP 代理服务器。 Nginx 是由 Igor Sysoev 为俄罗斯访问量第二的 Rambler.ru 站点开发的,第一个公开版本0.1.0发布于2004年10月4日。其将源代码以类BSD许可证的形式发布，因它的稳定性、丰富的功能集、示例配置文件和低系统资源的消耗而闻名。&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/categories/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/categories/Linux/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/"/>
+    
+      <category term="工具安装" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/tags/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/tags/Ubuntu/"/>
+    
+      <category term="Nginx" scheme="http://blog.zjc123.cn/tags/Nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux下安装Maven并配置环境变量</title>
+    <link href="http://blog.zjc123.cn/2017/12/16/Linux%E4%B8%8B%E5%AE%89%E8%A3%85Maven%E5%B9%B6%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/"/>
+    <id>http://blog.zjc123.cn/2017/12/16/Linux下安装Maven并配置环境变量/</id>
+    <published>2017-12-16T02:41:51.000Z</published>
+    <updated>2019-01-16T07:52:00.858Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>在Ubuntu系统下通过压缩包方式安装Maven以及配置环境变量。</em>  </p><a id="more"></a><hr><h3 id="官网下载所需的版本压缩包"><a href="#官网下载所需的版本压缩包" class="headerlink" title="官网下载所需的版本压缩包"></a>官网下载所需的版本压缩包</h3><p><a href="http://maven.apache.org/download.cgi" target="_blank" rel="noopener">官方下载直达链接</a></p><h3 id="解压文件"><a href="#解压文件" class="headerlink" title="解压文件"></a>解压文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.切换到文件存放的目录</span><br><span class="line">2.tar -zxvf apache-maven-3.5.2-bin.tar.gz</span><br></pre></td></tr></table></figure><h3 id="移动到-opt目录"><a href="#移动到-opt目录" class="headerlink" title="移动到/opt目录"></a>移动到/opt目录</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mv apache-maven-3.5.2 /opt</span><br></pre></td></tr></table></figure><h3 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">//打开配置文件</span><br><span class="line">1.vim /etc/profile</span><br><span class="line"></span><br><span class="line">//新增行MAVEN_HOME,等于号后面是maven的文件夹地址</span><br><span class="line">2.export MAVEN_HOME=/opt/apache-maven-3.5.2  </span><br><span class="line"></span><br><span class="line">//找到PATH行,追加$MAVEN_HOME/bin</span><br><span class="line">3.PATH=$JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH</span><br><span class="line"></span><br><span class="line">//刷新配置文件</span><br><span class="line">source /etc/profile</span><br></pre></td></tr></table></figure><h3 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h3><p><code>mvn -version</code><br><em>出现版本号则正确配置</em>  </p><h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;&lt;em&gt;在Ubuntu系统下通过压缩包方式安装Maven以及配置环境变量。&lt;/em&gt;  &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/categories/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/categories/Linux/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/"/>
+    
+      <category term="工具安装" scheme="http://blog.zjc123.cn/categories/Linux/Centos/Ubuntu/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
+    
+    
+      <category term="Linux" scheme="http://blog.zjc123.cn/tags/Linux/"/>
+    
+      <category term="Centos" scheme="http://blog.zjc123.cn/tags/Centos/"/>
+    
+      <category term="Ubuntu" scheme="http://blog.zjc123.cn/tags/Ubuntu/"/>
+    
+      <category term="Maven" scheme="http://blog.zjc123.cn/tags/Maven/"/>
+    
+  </entry>
+  
+</feed>
